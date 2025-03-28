@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Book Library</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Header section start here  -->
+    <header>
+        <div class="conatiner flex-row">
+            <div class="logo">
+                <h1><span>Book</span>Library</h1>
+            </div>
+            <div class="search">
+                <input type="text" id="search-box" placeholder="Search books here...">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="filter">
+                <div class="grid-list">
+                    <img src="./images/list.png" alt="" id="list">
+                    <img src="./images/visualization.png" alt="" id="grid">
+                </div>
+                <div class="sort">
+                    <img src="./images/sorting.png" alt="">
+                    <select>
+                        <option>Sort by</option>
+                        <option>Name (A to Z)</option>
+                        <option>Name (Z to A)</option>
+                        <option>Date (new to old)</option>
+                        <option>Date (old to new)</option>
+                        
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header section end here  -->
+
+    <!-- Main section start here  -->
+    <main>
+        <div class="conatiner">
+            <div id="book-container">
+                
+            </div>
+        </div>
+        <div class="conatiner pagination">
+            <button id="decrease">Previous</button>
+            <span id="value-inc-dec">1</span>
+            <button id="increase">Next</button>
+        </div>
+    </main>
+    <!-- Main section end here  -->
+
+    <!-- javascript file link -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
