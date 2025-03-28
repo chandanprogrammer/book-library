@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-Check out the live version of the project here: [Book Library](https://your-live-demo-url.com)
+Check out the live version of the project here: [https://chandanprogrammer.github.io/book-library]
 
 
 ## Overview
@@ -63,14 +63,8 @@ project-folder/
 └── README.md        # Project documentation
 ```
 
-## Future Enhancements
-
-- Add user authentication for personalized book lists.
-- Integrate a favorite/bookmark feature.
-- Improve UI/UX with better animations and responsiveness.
-
 ## Live Demo
 
-Check out the live version of the project here: [Book Library](https://your-live-demo-url.com)
+Check out the live version of the project here: [Book Library](https://chandanprogrammer.github.io/book-library/)
 
 
